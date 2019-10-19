@@ -1,0 +1,33 @@
+/*CSS to style body elements*/
+
+body, html {height: 100%}
+
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+
+        .menu {display: none}
+
+        /*background image = bgimg*/
+        .bgimg {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("bgimg.jpg");
+            min-height: 90%;
+        }
+
+        table {
+            border:1px solid black;margin-left:auto;margin-right:auto;">
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        td, th {
+            border: 1px ;
+            text-align: left;
+            padding: 5px;
+            font-size : 80%
+        }
+
+        tr:nth-child(even) {
+            background-color: #B2B3B5;
+        }
